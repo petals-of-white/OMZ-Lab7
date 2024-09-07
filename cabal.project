@@ -5,3 +5,8 @@ packages:
 
 package nanovg
     flags: +stb_truetype
+
+source-repository-package
+    type: git
+    location: https://github.com/petals-of-white/dicom-haskell-library.git
+    tag: beecc4e

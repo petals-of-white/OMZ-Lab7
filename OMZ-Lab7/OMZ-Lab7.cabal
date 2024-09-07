@@ -1,0 +1,47 @@
+cabal-version:      3.0
+name:               OMZ-Lab7
+version:            0.1.0.0
+homepage:           https://github.com/githubuser/monomer-starter#readme
+author:             Author name here
+maintainer:         example@example.com
+copyright:          2021 Author name here
+license:
+build-type:         Simple
+extra-source-files:
+  README.md
+  shaders/*
+
+executable OMZ-Lab7
+  main-is:          Main.hs
+  other-modules:
+    App
+    Coordinates
+    Linear.OpenGL
+    Log
+    OpenGLWidget
+    Shaders
+    Types
+
+  hs-source-dirs:   src
+  ghc-options:      -Wall -threaded
+  build-depends:
+    , base          >=4.7 && <5
+    , binary
+    , bytestring
+    , containers
+    , convertible
+    , data-default
+    , dicom
+    , directory
+    , filepath
+    , lens
+    , linear
+    , monomer
+    , OpenGL
+    , OpenGLRaw
+    , text
+    , text-show
+    , transformers
+    , vector
+
+  default-language: Haskell2010

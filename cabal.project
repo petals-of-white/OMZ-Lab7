@@ -1,7 +1,6 @@
 optimization: False
 
-packages:
-    OMZ-Lab7, dicom
+packages: OMZ-Lab7
 
 package nanovg
     flags: +stb_truetype
